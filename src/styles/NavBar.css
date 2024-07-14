@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #8b5a6a;
+  padding: 10px 0; /* Reduce padding */
+  position: fixed; /* Make the navbar fixed at the top */
+  width: 100%; /* Ensure it takes the full width */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px 15px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #0f0f0f;
+  color: white;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 50px; /* Adjust the size as needed */
+  height: 60px;
+  display: flex;
+  align-items: right;
+  justify-content: flex-end;
+  margin-left: auto;
+}

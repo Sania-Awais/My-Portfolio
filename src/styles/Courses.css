@@ -1,0 +1,24 @@
+.courses {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .courses h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .course-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .course-list li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
